@@ -28,7 +28,7 @@
         android:ems="10"
         android:inputType="text"
         android:text="@string/student_name"
-        tools:ignore="LabelFor" />
+        tools:ignore="LabelFor,VisualLintTextFieldSize" />
 
     <EditText
         android:id="@+id/etStudentNumber"
@@ -37,7 +37,8 @@
         android:ems="10"
         android:inputType="text"
         android:layout_marginBottom="25dp"
-        android:text="@string/student_number" />
+        android:text="@string/student_number"
+        tools:ignore="LabelFor,TextFields,VisualLintTextFieldSize" />
 
     <Button
         android:id="@+id/btnStart"
@@ -45,7 +46,7 @@
         android:layout_height="65dp"
         android:layout_marginBottom="15dp"
         android:gravity="center"
-        android:text="Start"
+        android:text="@string/start"
         android:textSize="20sp" />
 
     <Button
@@ -54,7 +55,7 @@
         android:layout_height="65dp"
         android:layout_marginBottom="15dp"
         android:gravity="center"
-        android:text="Exit"
+        android:text="@string/exit"
         android:textSize="20sp" />
 
     <ImageView

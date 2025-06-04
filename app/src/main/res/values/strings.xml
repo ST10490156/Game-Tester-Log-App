@@ -4,4 +4,6 @@
     <string name="gametester_log">GameTester Log</string>
     <string name="student_name">Student name:</string>
     <string name="student_number">Student number:</string>
+    <string name="exit">Exit</string>
+    <string name="start">Start</string>
 </resources>
