@@ -34,7 +34,7 @@ class SecondActivity : AppCompatActivity() {
         btnClearInputs = findViewById(R.id.btnClearInputs)
         btnGoToDetails = findViewById(R.id.btnGoToDetails)
 
-            
+
 
     }
 }

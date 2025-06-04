@@ -1,6 +1,7 @@
 package vcmsa.ci.gametesterlog
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -33,6 +34,14 @@ class ThirdActivity : AppCompatActivity() {
         etTotalPlay = findViewById(R.id.etTotalPlay)
         btnBackToScreen = findViewById(R.id.btnBackToScreen)
         btnExitApp = findViewById(R.id.btnExitApp)
+
+        btnBackToScreen.setOnClickListener{
+            startActivity(Intent(this, MainActivity::class.java))
+        }
+
+        btnExitApp.setOnClickListener{
+            startActivity(Intent(this, btnExitApp::class.java))
+        }
 
     }
 }

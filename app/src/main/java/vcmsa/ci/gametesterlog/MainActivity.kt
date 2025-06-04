@@ -1,16 +1,14 @@
 package vcmsa.ci.gametesterlog
 
-import android.app.Notification.Action
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
+import android.widget.EditText
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import android.widget.EditText
-import android.widget.Button
-import android.widget.TextView
-import kotlin.system.exitProcess
 
 class MainActivity : AppCompatActivity() {
     private lateinit var btnStart: Button
