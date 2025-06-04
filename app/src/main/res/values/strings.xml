@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Game Tester Log</string>
+    <string name="textview">TextView</string>
+    <string name="gametester_log">GameTester Log</string>
+    <string name="student_name">Student name:</string>
+    <string name="student_number">Student number:</string>
 </resources>

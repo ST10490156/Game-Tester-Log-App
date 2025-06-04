@@ -41,21 +41,21 @@
     <Button
         android:id="@+id/btnAddEntry"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="55dp"
         android:layout_marginBottom="15dp"
         android:text="Add Entry" />
 
     <Button
         android:id="@+id/btnClearInputs"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="55dp"
         android:layout_marginBottom="15dp"
-        android:text="Clearr Inputs" />
+        android:text="Clear Inputs" />
 
     <Button
         android:id="@+id/btnGoToDetails"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="55dp"
         android:layout_marginBottom="15dp"
         android:text="Go To Details" />
 
